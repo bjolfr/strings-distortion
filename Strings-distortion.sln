@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchPatterns", "SearchPatterns", "{FD9E32E1-93A0-4BCE-BCB7-88BA8CD1C9CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CS", "CS", "{2C5251AD-897C-4D1F-9F07-2F190AD7D2F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations", "Permutations\Permutations.csproj", "{8502688C-1220-4178-B8FD-9EB1806F542F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8502688C-1220-4178-B8FD-9EB1806F542F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8502688C-1220-4178-B8FD-9EB1806F542F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8502688C-1220-4178-B8FD-9EB1806F542F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8502688C-1220-4178-B8FD-9EB1806F542F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C5251AD-897C-4D1F-9F07-2F190AD7D2F8} = {FD9E32E1-93A0-4BCE-BCB7-88BA8CD1C9CF}
+		{8502688C-1220-4178-B8FD-9EB1806F542F} = {2C5251AD-897C-4D1F-9F07-2F190AD7D2F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA27FA59-9304-4A83-8DAE-85ED5FFF15D1}
