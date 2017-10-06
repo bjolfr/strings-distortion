@@ -2,12 +2,13 @@
 //
 
 #include "stdafx.h"
-#include "Lib.h"
 #include <iostream>
+#include <string>
+#include "lib.h"
 
 int main()
 {
-	string pattern, text;
+	std::string pattern, text;
 	
 	std::cout<<"Insert first line which contains pattern and next line which contains a text string:\n";
 

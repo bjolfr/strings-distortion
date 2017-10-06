@@ -4,7 +4,7 @@ using Permutations;
 namespace SearchPatterns.Test
 {
     [TestClass]
-    public class PermutationsFixture
+    public class PermutationFixture
     {
         [TestMethod]
         public void CalcShouldReturnYes()
