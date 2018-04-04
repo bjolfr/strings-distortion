@@ -9,25 +9,25 @@ namespace SearchPatterns.Test
         [TestMethod]
         public void CalcShouldReturnYes()
         {
-            Assert.AreEqual(Lib.CalcPattern("use", "question"), "YES");
+            Assert.AreEqual(Permutations.Lib.CalcPattern("use", "question"), "YES");
         }
 
         [TestMethod]
         public void CalcShouldThroughAllText()
         {
-            Assert.AreEqual(Lib.CalcPattern("use", "usgues"), "YES");
+            Assert.AreEqual(Permutations.Lib.CalcPattern("use", "usgues"), "YES");
         }
 
         [TestMethod]
         public void CalcShouldReturnNoForUncompletePattern()
         {
-            Assert.AreEqual(Lib.CalcPattern("use", "sugestion"), "NO");
+            Assert.AreEqual(Permutations.Lib.CalcPattern("use", "sugestion"), "NO");
         }
 
         [TestMethod]
         public void CalcPatternShouldIgnoreLongPattern()
         {
-            Assert.AreEqual(Lib.CalcPattern("shortbutverylong", "short"), "NO");
+            Assert.AreEqual(Permutations.Lib.CalcPattern("shortbutverylong", "short"), "NO");
         }
     }
 }
