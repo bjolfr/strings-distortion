@@ -51,6 +51,7 @@
     <Compile Include="StringOrderFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BracketValidationFixture.cs" />
+    <Compile Include="StringReverseFixture.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

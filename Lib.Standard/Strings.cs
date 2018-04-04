@@ -32,5 +32,14 @@ namespace Lib.Standard
             Array.Reverse(a);                                               //Second
             return string.Concat(a);                                        //Third
         }
+
+        public static char[] ReverseCharArray(char[] input)
+        {
+            for (int i = 0, j = input.Length - 1; i < input.Length && i < j; i++, j--) {
+                input[i] ^= input[j];
+                input[j] ^= input[i];
+                input[i] ^= input[j]; }
+            return input;
+        }
     }
 }

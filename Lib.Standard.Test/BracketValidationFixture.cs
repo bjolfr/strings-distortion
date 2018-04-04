@@ -1,5 +1,5 @@
 ﻿using System;
-using Lib.Standard.Model;
+using Lib.Standard.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Lib.Standard.Test

@@ -1,4 +1,0 @@
-﻿TASK:
-
-You have a string str = "I love you". 
-Write a program to print the output as "you love I". Calculate the efficiency of your coding.

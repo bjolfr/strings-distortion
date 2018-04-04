@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lib.Standard.Model
+namespace Lib.Standard.Models
 {
     public class CharStream : ICharStream
     {
