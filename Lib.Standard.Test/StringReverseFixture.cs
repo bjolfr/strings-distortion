@@ -5,6 +5,7 @@ namespace Lib.Standard.Test
     [TestClass]
     public class StringReverseFixture
     {
+        //TASK 2
         [TestMethod]
         public void StringShouldBeReversed()
         {
