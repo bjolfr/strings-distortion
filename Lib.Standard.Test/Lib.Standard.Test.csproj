@@ -48,10 +48,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\ArrayComparer.cs" />
     <Compile Include="StringOrderFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BracketValidationFixture.cs" />
     <Compile Include="StringReverseFixture.cs" />
+    <Compile Include="NumbersFixture.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

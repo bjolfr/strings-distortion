@@ -25,14 +25,6 @@ namespace Lib.Standard
             return sb.ToString();                               //Third
         }
 
-        public static string ReverseWords2(string input)                    //O(n3)
-        {
-            if (string.IsNullOrEmpty(input)) throw new ArgumentNullException();
-            var a = input.Split(null as char[], StringSplitOptions.None);   //First
-            Array.Reverse(a);                                               //Second
-            return string.Concat(a);                                        //Third
-        }
-
         public static char[] ReverseCharArray(char[] input)
         {
             for (int i = 0, j = input.Length - 1; i < input.Length && i < j; i++, j--) {
